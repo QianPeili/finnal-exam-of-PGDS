@@ -85,8 +85,9 @@ print 'Q4:', max(orf2_lens)
 # question 5
 postions_3 = [v['p1'] for v in list3]
 logest_index = orf3_lens.index(max(orf3_lens))
-# plus 3 for the first postion index is 0 in programing
-print 'Q5:', postions_3[logest_index] + 3
+# plus 2 for it is frame3
+# plus 1 for the first postion index is 0 in programe
+print 'Q5:', postions_3[logest_index] + 2 + 1
 # question 6
 total_orf_lens = orf1_lens + orf2_lens + orf3_lens
 print 'Q6:', max(total_orf_lens)
