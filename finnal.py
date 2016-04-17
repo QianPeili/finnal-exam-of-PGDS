@@ -37,7 +37,7 @@ def concat_list(orf_info):
 
 def seq_counter(seq, length, result):
     total_len = len(seq)
-    for n in range(length, total_len):
+    for n in range(length, total_len+1):
         tmp = seq[n-length: n]
         if tmp not in result:
             result[tmp] = 1
